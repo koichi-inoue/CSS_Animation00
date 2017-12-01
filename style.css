@@ -1,0 +1,20 @@
+body {
+	background-color: #3399FF;
+	color: #FFFFFF;
+	text-align:center;
+}
+
+h1{
+	position: absolute;
+	top:40%;
+	left:0;
+	width: 100%;
+	font-size: 5rem;
+	text-align: center;
+	animation: fade 8s ease;
+}
+
+@keyframes fade {
+	0% { color: #3399FF; }
+	100% { color: #FFFFFF; }
+}
